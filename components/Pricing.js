@@ -46,7 +46,7 @@ const Pricing = () => {
             </motion.p>
           </ScrollAnimationWrapper>
           <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-3 gap-2 lg:gap-6 py-4 lg:py-6 px-3 sm:px-0 lg:px-3">
-            <ScrollAnimationWrapper className="flex justify-center">
+            <ScrollAnimationWrapper className="flex justify-center mb-4">
               <motion.div
                 variants={scrollAnimation}
                 className="flex flex-col justify-center hover:border-orange-500 items-center border-2 border-gray-500 rounded-xl py-2 px-3 lg:px-6 xl:px-10"
@@ -90,7 +90,7 @@ const Pricing = () => {
                 </div>
               </motion.div>
             </ScrollAnimationWrapper>
-            <ScrollAnimationWrapper className="flex justify-center">
+            <ScrollAnimationWrapper className="flex justify-center mb-4">
               <motion.div
                 variants={scrollAnimation}
                 className="flex flex-col justify-center hover:border-orange-500 items-center border-2 border-gray-500 rounded-xl py-4 px-3 lg:px-6 xl:px-10"
@@ -134,7 +134,7 @@ const Pricing = () => {
                 </div>
               </motion.div>
             </ScrollAnimationWrapper>
-            <ScrollAnimationWrapper className="flex justify-center">
+            <ScrollAnimationWrapper className="flex justify-center mb-4">
               <motion.div
                 variants={scrollAnimation}
                 className="flex flex-col justify-center hover:border-orange-500 items-center border-2 border-gray-500 rounded-xl py-2 px-3 lg:px-6 xl:px-10"
@@ -190,14 +190,13 @@ const Pricing = () => {
             <motion.h3
               variants={scrollAnimation}
               className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-normal w-3/4 sm: lg:w-2/6 mx-auto">
-              Trusted by Thousands of Happy Customer{" "}
+              Ils nous ont fait confiance.
             </motion.h3>
             <motion.p
               variants={scrollAnimation}
               className="leading-normal mx-auto mb-2 mt-2 w-5/6 sm:w-3/6 lg:w-3/6"
             >
-              These are the stories of our customers who have joined us with great
-              pleasure when using this crazy feature.
+              Decouvrez les avis de nos clients et partagez leurs expériences.
             </motion.p>
           </ScrollAnimationWrapper>
           <ScrollAnimationWrapper className="w-full flex flex-col py-6">

@@ -80,9 +80,11 @@ export const Modal = ({ visible, onClose, selectPack }) => {
         modal: {
             backgroundColor: '#fff',
             padding: '30px',
+            marginLeft: "20px",
+            marginRight: "20px",
             borderRadius: '15px',
             position: 'relative',
-            minWidth: '200px',
+            minWidth: '100px',
             minHeight: '200px',
             width: "700px",
             boxShadow: '0 2px 10px rgba(0, 0, 0, 0.1)',

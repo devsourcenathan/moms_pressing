@@ -10,40 +10,36 @@ import ArrowNext from "../public/assets/Icon/eva_arrow-next-fill.svg";
 const Testimoni = ({
   listTestimoni = [
     {
-      name: "iezh Robert",
-      image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
-      rating: "4.5",
+      name: "Clarisse Mvondo",
+      city: "Mendong",
+      country: " Yaoundé",
+      rating: "5.0",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "Je suis absolument ravie du service de pressing. Mes vêtements sont toujours impeccablement propres et bien repassés. De plus, la rapidité du service est impressionnante. Je recommande vivement ",
     },
     {
-      name: "iezh Robert",
-      image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
+      name: "Joseph Ngassa",
+      city: "Manguier",
+      country: " Yaoundé",
       rating: "4.5",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "J'ai confié des vêtements très délicats à ce pressing et je suis vraiment satisfaite du résultat. Tout est revenu comme neuf, sans aucun dommage. Un service en qui on peut avoir confiance !",
     },
     {
-      name: "iezh Robert",
-      image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
-      rating: "4.5",
+      name: "Anne-Marie Nkou",
+      city: "Biyem-Assi",
+      country: " Yaoundé",
+      rating: "4.0",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "Le service de pressing offre un excellent rapport qualité-prix. Les tarifs sont raisonnables et la qualité du service est exceptionnelle. Je suis très satisfait de leur travail.",
     },
     {
-      name: "iezh Robert",
-      image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
+      name: "Chantal Abega",
+      city: "Mendong",
+      country: " Yaoundé",
       rating: "4.5",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "J'apprécie énormément la facilité de prise en charge et de livraison à domicile offerte par ce pressing. C'est très pratique et le service est toujours ponctuel. Cela rend ma vie tellement plus simple",
     },
   ],
 }) => {
@@ -94,13 +90,8 @@ const Testimoni = ({
             <div className="border-2 border-gray-500 hover:border-orange-500 transition-all rounded-lg p-8 flex flex-col">
               <div className="flex flex-col xl:flex-row w-full items-stretch xl:items-center">
                 <div className="flex order-2 xl:order-1">
-                  <Image
-                    src={listTestimonis.image}
-                    height={50}
-                    width={50}
-                    alt="Icon People"
-                  />
-                  <div className="flex flex-col ml-5 text-left">
+
+                  <div className="flex flex-col text-left">
                     <p className="text-lg text-black-600 capitalize">
                       {listTestimonis.name}
                     </p>
