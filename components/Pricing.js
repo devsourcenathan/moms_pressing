@@ -49,7 +49,7 @@ const Pricing = () => {
             <ScrollAnimationWrapper className="flex justify-center">
               <motion.div
                 variants={scrollAnimation}
-                className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-2 px-3 lg:px-6 xl:px-10"
+                className="flex flex-col justify-center hover:border-orange-500 items-center border-2 border-gray-500 rounded-xl py-2 px-3 lg:px-6 xl:px-10"
                 whileHover={{
                   scale: 1.1,
                   transition: {
@@ -84,7 +84,7 @@ const Pricing = () => {
                 </ul>
                 <div className="flex flex-col w-full justify-center flex-none">
                   <p className="text-2xl text-black-600 text-center mb-4 ">
-                    10Kg <span className="text-black-500">/semaine</span>
+                    10Kg <span className="text-black-500">/mois</span>
                   </p>
                   <ButtonOutline onClick={() => handleButtonClick("Classique")}>5.000 Fcfa/Mois</ButtonOutline>
                 </div>
@@ -93,7 +93,7 @@ const Pricing = () => {
             <ScrollAnimationWrapper className="flex justify-center">
               <motion.div
                 variants={scrollAnimation}
-                className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-3 lg:px-6 xl:px-10"
+                className="flex flex-col justify-center hover:border-orange-500 items-center border-2 border-gray-500 rounded-xl py-4 px-3 lg:px-6 xl:px-10"
                 whileHover={{
                   scale: 1.1,
                   transition: {
@@ -128,7 +128,7 @@ const Pricing = () => {
                 </ul>
                 <div className="flex flex-col w-full justify-center mb-4 flex-none">
                   <p className="text-2xl text-black-600 text-center mb-4 ">
-                    15Kg <span className="text-black-500">/semaine</span>
+                    15Kg <span className="text-black-500">/mois</span>
                   </p>
                   <ButtonOutline onClick={() => handleButtonClick("Premium")}>7.500 Fcfa/Mois</ButtonOutline>
                 </div>
@@ -137,7 +137,7 @@ const Pricing = () => {
             <ScrollAnimationWrapper className="flex justify-center">
               <motion.div
                 variants={scrollAnimation}
-                className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-2 px-3 lg:px-6 xl:px-10"
+                className="flex flex-col justify-center hover:border-orange-500 items-center border-2 border-gray-500 rounded-xl py-2 px-3 lg:px-6 xl:px-10"
                 whileHover={{
                   scale: 1.1,
                   transition: {
@@ -172,7 +172,7 @@ const Pricing = () => {
                 </ul>
                 <div className="flex flex-col w-full justify-center mb-4 flex-none">
                   <p className="text-2xl text-black-600 text-center mb-2">
-                    20Kg <span className="text-black-500">/semaine</span>
+                    20Kg <span className="text-black-500">/mois</span>
                   </p>
 
                   <ButtonOutline onClick={() => handleButtonClick("Gold")}>10.000 Fcfa/Mois</ButtonOutline>
