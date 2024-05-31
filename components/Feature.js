@@ -35,10 +35,13 @@ const Feature = () => {
         </ScrollAnimationWrapper>
         <ScrollAnimationWrapper>
 
-          <motion.div className="flex flex-col items-end justify-center ml-auto w-full lg:w-9/12" variants={scrollAnimation}>
-            <h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
+          <motion.div className="flex flex-col justify-center ml-auto w-full lg:w-9/12" variants={scrollAnimation}>
+            <motion.h3
+              variants={scrollAnimation}
+              className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed"
+            >
               Nos services
-            </h3>
+            </motion.h3>
             <p className="my-2 text-black-500">
               Voici une liste de nos services qui pourrons vous aider dans votre quotidien.
             </p>
