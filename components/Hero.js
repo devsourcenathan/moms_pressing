@@ -4,7 +4,9 @@ import ButtonPrimary from "./misc/ButtonPrimary";
 import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
-
+import img1 from "./../public/assets/images/img-1.jpg"
+import img2 from "./../public/assets/images/img-2.jpg"
+import img3 from "./../public/assets/images/img-3.jpg"
 const Hero = ({
   listUser = [
     {
@@ -87,7 +89,28 @@ const Hero = ({
           style={{ filter: "blur(114px)" }}
         ></div>
       </div>
-    </div>
+
+      <section className="bg-white dark:bg-gray-900">
+        <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+          <div className="font-light text-gray-900 sm:text-lg dark:text-gray-900">
+            <h2 className="mb-4 text-3xl tracking-tight font-extrabold text-gray-900 dark:text-white">Nous n'avons pas réinventé la roue</h2>
+            <p className="mb-4">Nous sommes des experts en pressing, des spécialistes de la propreté et des soins textiles. Innovateurs et résolveurs de problèmes. Assez petits pour être simples et rapides, mais assez grands pour offrir l'ampleur que vous souhaitez à la vitesse dont vous avez besoin. Assez petits pour être simples et rapides, mais assez grands pour offrir l'ampleur que vous souhaitez à la vitesse dont vous avez besoin.</p>
+            <p>Nous sommes des experts en pressing, des spécialistes de la propreté et des soins textiles. Innovateurs et résolveurs de problèmes. Assez petits pour être simples et rapides.</p>
+          </div>
+          <div className="grid grid-cols-2 gap-4 mt-8">
+            <Image
+              src="/assets/images/img-1.jpg"
+              alt="Service de pressing"
+              layout="responsive"
+              quality={100}
+              height={414}
+              width={508}
+            />
+            <Image className="rounded-lg" src={img3} alt="service de pressing 3" />
+          </div>
+        </div>
+      </section>
+    </div >
   );
 };
 
